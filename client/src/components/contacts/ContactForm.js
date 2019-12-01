@@ -42,7 +42,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     if (current === null) {
-      contactContext.addContact(contact);
+      addContact(contact);
     } else {
       updateContact(contact);
     }
